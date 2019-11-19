@@ -1,8 +1,5 @@
 package com.etz.abiolagbode.waxnote.dto.response;
 
-import javax.persistence.Entity;
-
-
 public class ResponseDTO {
 	
 	private String name;

@@ -33,6 +33,7 @@ import io.swagger.annotations.ApiResponses;
 @RestController
 @RequestMapping("/api")
 @Api(value="notes", description="Operations pertaining to online notes")
+// @CrossOrigin(origins = "http://localhost:3211", allowCredentials = "true")
 public class WaxNoteController {
 	
 	@Autowired
